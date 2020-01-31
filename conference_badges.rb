@@ -1,6 +1,3 @@
-require"pry"
-
-
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -19,7 +16,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-binding.pry
+
   
 end
 
