@@ -9,6 +9,8 @@ attendees.map do |attendees|
 end
 
 def assign_rooms(attendees)
+  attendees.map do |attendees, i|
+    
   
 end
 
