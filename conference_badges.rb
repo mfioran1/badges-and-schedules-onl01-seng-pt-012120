@@ -16,7 +16,10 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-badges_and_room_assignments.each do |line|
+batch_badge_creator(attendees) do |line|
+  puts line
+end
+assign_rooms(attendees) do |line|
   puts line
 end
 
